@@ -20,28 +20,10 @@ This project aims to build a fully functional chess engine that recommends the b
 
 ## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/chess-engine.git
-    cd chess-engine
-    ```
+1. Clone the repository
 
 2. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
-3. Ensure Stockfish is installed and accessible from your system. You can download it from [here](https://stockfishchess.org/download/).
+3. Ensure Stockfish is installed and accessible from your system. You can download it from [here](https://stockfishchess.org/download/). Make sure that the path to stockfish
+   in the code is replaced with the actual path in the system
 
-## Usage
-
-### Dataset Generation
-
-Generate random chess boards and prepare the dataset:
-```python
-import numpy as np
-import chess
-import chess.engine
-
-# Code for dataset generation
-# ...
